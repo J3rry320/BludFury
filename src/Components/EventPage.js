@@ -1,6 +1,5 @@
 import React,{Component} from 'react';
 import {Tabs, Tab} from 'material-ui/Tabs';
-import Slider from 'material-ui/Slider';
 
 const styles = {
   headline: {
@@ -32,7 +31,7 @@ export default class EventPage extends Component {
                 <p>
                   You can put any sort of HTML or react component in here. It even keeps the component state!
                 </p>
-                <Slider name="slider0" defaultValue={0.5} />
+                
               </div>
             </Tab>
             <Tab label="Item Two" >

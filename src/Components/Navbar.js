@@ -62,7 +62,7 @@ export default class Navbar extends Component{
      //This is the sider Component   
      <Drawer
      docked={false}
-     width={200}
+     width={300}
      open={this.state.Sideropen}
      onRequestChange={(open) => this.setState({Sideropen:false})}
      >
